@@ -1,8 +1,0 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-
-body {
-  @apply bg-gradient-to-r from-neutral-700 to-slate-700; /* Replace with the appropriate background color class */
-}
