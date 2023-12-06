@@ -62,7 +62,7 @@ function App() {
           headers: {
             "Content-Type": "application/x-www-form-urlencoded",
           },
-          body: "grant_type=client_credentials&client_id=d4078ee71f2f403592275fea81bfddfb&client_secret=d62372fdee914cc4b5c464a5ec7ba7ef",
+          body: "grant_type=client_credentials&client_id=SPOTIFY_CLIENT_ID&client_secret=SPOTIFY_CLIENT_SECRET",
         });
 
         if (!response.ok) {
